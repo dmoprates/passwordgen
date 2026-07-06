@@ -6,15 +6,15 @@ interface SecurityBarProps {
 }
 
 const levelColors = {
-  critical: "bg-critical",
-  warning: "bg-warning",
-  safe: "bg-safe",
+  critical: "bg-destructive",
+  warning: "bg-chart-1",
+  safe: "bg-primary",
 };
 
 const levelTextColors = {
-  critical: "text-critical",
-  warning: "text-warning",
-  safe: "text-safe",
+  critical: "text-destructive",
+  warning: "text-chart-1",
+  safe: "text-primary",
 };
 
 export function SecurityBar({ security }: SecurityBarProps) {

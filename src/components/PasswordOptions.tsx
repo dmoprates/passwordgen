@@ -40,7 +40,7 @@ export function PasswordOptions({
           >
             Tamanho
           </label>
-          <span className="text-sm font-mono font-bold text-accent bg-surface-hover px-2.5 py-0.5 rounded-md tabular-nums">
+          <span className="text-sm font-mono font-bold text-primary bg-surface-hover px-2.5 py-0.5 rounded-md tabular-nums">
             {options.length}
           </span>
         </div>
