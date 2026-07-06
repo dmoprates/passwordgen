@@ -21,7 +21,7 @@ const Content = () => {
   } = usePasswordGenerator();
 
     return (
-    <Tabs defaultValue="senha" className="flex p-6 min-h-screen">
+    <Tabs defaultValue="senha" className="flex p-6 min-h-screen max-w-2xl mx-auto">
       <TabsList>
         <TabsTrigger value="senha">Gerar Senha</TabsTrigger>
         {/*<TabsTrigger value="analytics">Analytics</TabsTrigger>*/}
