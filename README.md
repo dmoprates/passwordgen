@@ -1,13 +1,19 @@
 # 🔒 Ation Gerador de Senhas
 
-Aplicação desenvolvida em NextJS para geração de senhas seguras com possibilidade de customização conforme necessidade do usuário.
+Aplicação web desenvolvida em NextJS, que possui a finalidade de gerar senhas customizáveis através de seleção de opções.
 
-Por padrão a aplicação gera senhas numéricas, porém o usuário pode incluir as seguintes variações:
+Por padrão, a aplicação já inicia com a opção de maior complexidade, porém o usuário pode redefinir conforme necessidade.
 
-- Quantidade de caracteres;
+As opções disponíveis para complexidade de geração de senha são:
+
+- Tamanho da senha;
 - Letras Maiúsculas;
-- Letras Minúsculas;
-- Símbolos.
+- Números;
+- Símbolos
+
+Também está disponível um display que apresenta a senha gerada, um botão para atualização e um botão para cópia da senha gerada.
+
+A aplicação é responsiva e foi desenvolvida em modo escuro (dark mode) não possuido opção de alterar para modo claro.
 
 ## 📦 Rodando o projeto
 
